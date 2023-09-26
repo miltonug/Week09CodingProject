@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Gallery</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAlt" aria-controls="navbarNavAlt" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAlt">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="alert alert-primary" role="alert">
+      <header class="container-fluid text-center fs-1">Early BMW motorcycles</header> 
+    </div>
+
+  <!-- Put images in cards in containers, the images are displayed horizontally by default, but stack when viewed on small to medium size screens-->  
+    <div class="container text-center mb-5 fs-2">
+        <div class="row">
+          <div class="col-md">
+            <div id="card-1" class="card bg-info">
+              <img
+                src="./images/Helios_1920.jpg"
+                class="card-img-top"
+                alt="Photo of the Bayerische Flugzeugwerke (BFw) Helios motorcycle produced between 1920 to 1922"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The 1920 BFw Helios motorcycle</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-2" class="card bg-info">
+              <img
+                src="./images/1923-1926-BMW_R32.jpg"
+                class="card-img-top"
+                alt="Photo of the BMW R32 motorcycle produced between 1923 to 1926"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The 1923 BMW R32 motorcycle</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-3" class="card bg-info">
+              <img
+                src="./images/1935-1942_BMW_R12.jpg"
+                class="card-img-top"
+                alt="Photo of the BMW R12 motorcycle produced between 1935 to 1942"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The 1935 BMW R12 motorcycle</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <footer class="text-center fs-6">Week09 Coding Project</footer>
+    
+</body>
+
+</html>

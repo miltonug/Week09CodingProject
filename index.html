@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW History</title>
+<!-- Link to bootstrap css file -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+<!-- Create navbar with collapsing menu for medium or smaller screens -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light m-1">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAlt" aria-controls="navbarNavAlt" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAlt">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- Using bootstrap built-in alert to style the page header -->
+    <div class="alert alert-primary" role="alert">
+        <header class="container-fluid text-center fs-1">History of BMW motorcycles</header> 
+    </div>
+
+<!-- Put paragraph text in a container -->
+    <div class="container ml-3 mr-3">
+        <p>BMW's motorcycle history began in 1921 when the company commenced manufacturing engines for other companies. BMW's own motorcycles—sold under the BMW Motorrad brand—began in 1923 with the BMW R 32, which was powered by a flat-twin engine (also called a "boxer-twin" engine). Production of motorcycles with flat-twin engines continues to this day.
+          <br><br>
+          The official founding date of the German motor vehicle manufacturer BMW is 7 March 1916, when an aircraft producer called Bayerische Flugzeugwerke (formerly Otto Flugmaschinenfabrik) was established. This company was renamed to Bayerische Motoren Werke (BMW) in 1922. However, the BMW name dates back to 1917, when Rapp Motorenwerke changed its name to Bayerische Motoren Werke. BMW's first product was a straight-six aircraft engine called the BMW IIIa. Following the end of World War I, BMW remained in business by producing motorcycle engines, farm equipment, household items and railway brakes. (ref: wikipedia)
+        </p>
+    </div>
+    
+<!-- Put table in a container -->
+    <table class="container m-1 table table-hover m-auto mb-5">
+        <thead>
+          <tr>
+            <th>Period</th>
+            <th>Evolution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1921–1938</td>
+            <td>At the end of World War I, the Treaty of Versailles demanded that BMW cease production of aircraft engines. To remain in business, the company began producing small industrial engines. In 1920, BMW M2B15 flat-twin petrol engine was released. The BMW R 12 and BMW R 17, both introduced in 1935, were the first production motorcycles with hydraulically damped telescopic forks.</td>
+          </tr>
+          <tr>
+            <td>1939–1945</td>
+            <td>During World War II, the German military needed as many vehicles as it could get of all types and many other German companies were asked to build motorcycles. The BMW R 75 performed particularly well in the harsh operating environment of North Africa, partly due to the protruding cylinders of the flat-twin engine providing more effective cooling than other configurations which overheated in the sun.</td>
+          </tr>
+        </tbody>
+      </table>
+
+<!-- Put form in a container -->
+      <form class="container m-6">
+        <div class="container mb-3">
+            <header class="container fs-5">Provide your email for more information on the history of BMW </header>
+          <label for="name" class="col-md-2 col-form-label">Name</label>
+          <div class="col-ms-10">
+            <input type="text" class="form-control bg-light" id="name" placeholder="First and Last name">
+          </div>
+        </div>
+        <div class="container  mb-3">
+          <label for="email" class="col-md-2 col-form-label">Email</label>
+          <div class="col-ms-10">
+            <input type="email" class="form-control bg-light" id="email" placeholder="Email">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br>
+
+<!-- Put footer text in a container -->
+      <hr>
+      <footer class="container text-center fs-6">Week09 Coding Project</footer>
+
+  </body>
+
+</html>
